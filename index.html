@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="myForm">
+            <div style="margin-bottom: 20px;">
+                <div class="formRow">
+                    <label class="formLabel" for="username">Kullanıcı Adı</label>
+                    <input class="forInput" type="text" id="username" placeholder="ex@domain.com" />
+                </div>
+                <p class="errorMessage" id="usernameError">Hata mesajı yazdır</p>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <div class="formRow">
+                    <label class="formLabel" form="password">Şifre</label>
+                    <input class="forInput" type="password" id="password" />
+                    <div id="inputIconContainer">
+                        <i id="inputIcon" class="fa-sharp fa-solid fa-eye"></i>
+    
+                    </div>
+                </div>
+                <p class="errorMessage" id="passwordError">Hata mesajı yazdır</p>
+            </div>
+            <div class="formBtnContainer">
+                <button type="submit">Giriş</button>
+
+            </div>
+
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html> 
